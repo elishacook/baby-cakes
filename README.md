@@ -56,7 +56,7 @@ const model = new Model(
 mount(
   document.body,
   model,
-  () => CacheView(
+  CacheView(
     () => model.state().tasks.tasks,
     (tasks) => h('div.tasks', [
       h('div', [
@@ -85,9 +85,8 @@ mount(
               },
               'Done!'
             )
-          ])
-      )
-    ])
+          ]))
+      ])
     ])
   )
 )

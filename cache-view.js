@@ -38,5 +38,5 @@ Thunk.prototype.state_equals = function (other)
 
 module.exports = function (get_state, render)
 {
-  return new Thunk(get_state, render)
+  return () => new Thunk(get_state, render)
 }

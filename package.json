@@ -1,6 +1,6 @@
 {
   "name": "baby-cakes",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Another micro-framework for reactive apps",
   "main": "src/index.js",
   "scripts": {
