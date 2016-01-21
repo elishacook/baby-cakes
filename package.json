@@ -1,6 +1,6 @@
 {
   "name": "baby-cakes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Another micro-framework for reactive apps",
   "main": "src/index.js",
   "scripts": {
@@ -8,8 +8,12 @@
   },
   "author": "Elisha Fitch-Cook <elisha@elishacook.com> (https://github.com/elishacook)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elishacook/baby-cakes.git"
+  },
   "dependencies": {
     "freezer-js": "^0.9.6",
-    "virtual-dom": "^2.1.1",
+    "virtual-dom": "^2.1.1"
   }
 }
